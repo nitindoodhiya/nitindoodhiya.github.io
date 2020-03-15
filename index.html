@@ -40,7 +40,7 @@
            
         </div>
 
-        <main class="site-wrapper">
+        <main class="site-wrapper" id="main-site">
             <div class="pt-table desktop-768">
                 <div class="pt-tablecell page-home relative" style="background-image: url(&#39;img/banner.jpg&#39;);">
                     <div class="overlay"></div>
@@ -234,6 +234,11 @@
     document.getElementById("name").style.overflow ="hidden";
     var p=00;
     var inc=1;
+        
+    setTimeout(() => {
+        $("#main-site").fadeIn();
+    }, 2500);
+    
     // setInterval(() => {
     //     if(inc)
     //     p++;
