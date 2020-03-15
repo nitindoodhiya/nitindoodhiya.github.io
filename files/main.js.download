@@ -179,3 +179,7 @@
 		}, 1500);
 	});
 })(jQuery);
+setTimeout(() => {
+        $("#main-site").fadeIn();
+    }, 2500);
+    
